@@ -42,7 +42,7 @@ when "mac_os_x"
 
   dmg_package "Virtualbox" do
     source url
-    type "mpkg"
+    type "pkg"
     checksum sha256sum
   end
 

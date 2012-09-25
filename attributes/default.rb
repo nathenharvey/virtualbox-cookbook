@@ -17,11 +17,11 @@
 # limitations under the License.
 #
 
-default['virtualbox']['urlbase'] = "http://download.virtualbox.org/virtualbox/4.0.8"
+default['virtualbox']['urlbase'] = "http://download.virtualbox.org/virtualbox/4.2.0"
 default['virtualbox']['arch'] = node['kernel']['machine'] =~ /x86_64/ ? "amd64" : "i386"
 case node['platform']
 when "mac_os_x", "windows"
-  default['virtualbox']['version'] = "VirtualBox-4.0.8-71778"
+  default['virtualbox']['version'] = "VirtualBox-4.2.1-80871"
 when "ubuntu","debian"
   default['virtualbox']['version'] = "4.1"
 end
