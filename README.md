@@ -50,7 +50,7 @@ The source file in the URL for VirtualBox's download mirror is inconsistent betw
 
 The following attributes are used to build up the full source URL:
 
-* `node['virtualbox']['urlbase']` - Base URL through the directory on the VirtualBox mirror. Default is on virtualbox.org's mirror, in the 4.0.8 directory.
+* `node['virtualbox']['urlbase']` - Base URL through the directory on the VirtualBox mirror. Default is on virtualbox.org's mirror, in the 4.2.0 directory.
 * `node['virtualbox']['version']` - This is the base virtualbox file name up through the version. Slightly misleading, but there you have it.
 * `node['virtualbox']['arch']` - Used to determine which architecture in the filename, for Ubuntu/Debian distributions.
 
